@@ -1,0 +1,319 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #010101;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 70px;
+    margin: auto;
+    background-color: #0a0a0a;
+    z-index: 1;
+    border-radius: 20px;
+    
+}
+
+#input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+#input>img{
+    width: 20px;
+    position: relative;
+    left: 30px;
+    opacity: 50%;
+}
+
+#container {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 20px 20px 20px 30px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgb(7, 6, 6);
+    border: 1px solid #fff ;
+    margin-top: 100px;
+}
+#container>div>h2{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+#temp{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;  
+}
+#container>div>p{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+#weather{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+#other_temp{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa
+}
+#wind{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa
+}
+#humidity{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa
+}
+#viewDistance{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa
+}
+#aqi{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa
+}
+
+
+
+
+#submit {
+    display: block;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #0e0f10;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#submit:hover {
+    background-color: #112d4ede;
+    transition: 300ms;
+}
+
+input {
+    padding: 5px 5px 5px 40px ;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #112D4E;
+    width: 300px;
+}
+
+input::placeholder{
+    opacity: 50%;
+}
+
+#temp>div>img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+#temp>div{
+    display: flex;
+    margin-top: 10px;
+}
+
+#temp{
+    display: flex;
+    align-items: center;
+}
+
+#cityName {
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 13px;
+    color: #112D4E;
+}
+
+#type{
+    color: grey;
+}
+
+#weather{
+    font-size: 25px;
+}
+
+#other_temp{
+    margin-top: 15px;
+    display: flex;
+}
+
+.hr_temp{
+    margin: 0px 10px 0px 10px;
+}
+
+#wind{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+#wind>img{
+    height: 14px;
+    margin-right: 10px;
+}
+
+#aqi{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#aqiIndex{
+    margin-left: 5px;
+}
+
+#viewDistance, #humidity{
+    margin-top: 10px;
+    display: flex;
+}
+
+#viewDistance>img,
+#humidity>img {
+    width: 17px;
+    margin-right: 10px;
+}
+
+.aqiName{
+    font-size: 12px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    color: white;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.mapouter:hover{
+    transform: scale(1.03);
+    transition: 300ms;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 600px;
+}
